@@ -90,3 +90,17 @@ This project is a Spring Boot application for managing loads, allowing users to 
    ```bash
    git clone https://github.com/shivamwaleba/LiveasyAssesment.git
    cd LiveasyAssesment
+
+
+  # PostgreSQL Configuration of project in Application.properties
+
+# spring.application.name=Liveasy
+spring.datasource.url=jdbc:postgresql://localhost:5432/Liveasy
+spring.datasource.username=postgres
+spring.datasource.password=Shivam@800
+spring.jpa.hibernate.ddl-auto=none
+spring.jpa.show-sql=true
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+
+
+
